@@ -19,7 +19,6 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     height: 600px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .banner-text {
@@ -50,3 +49,56 @@
     max-width: 632px; */
     margin: 0 auto;
 }
+
+
+/* Main Section Style */
+
+/* Deals Section Style */
+
+.deals {
+    margin-top: 120px;
+}
+
+.deals .deals-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deals .deals-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 48px;
+}
+
+.deals .deals-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 16px;
+}
+
+.deals-img {
+    text-align: center;
+}
+
+.deals .deals-img img {
+    padding-top: 48px;
+    width: 61%;
+    max-width: 803px;
+    height: 500px;
+}
+
