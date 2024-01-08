@@ -139,9 +139,22 @@
     margin: 24px 0 0 126px;
 }
 
-/* h4 ar jaigai akta btn or primary btn add kore dekhte hobe */
-
 .party .party-content .party-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    margin: 48px 0 0 158px;
+    background-color: #070211;
+}
+
+.party .party-content .party-text button:hover {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -186,6 +199,7 @@
 .party-address-content {
     padding-top: 100px;
 }
+
 
 .party-address .party-address-content button {
     color: #FFF;
@@ -266,6 +280,7 @@
 /* .comming-soon .comming-soon-content .third-box {
     padding-top: 140px;
 } */
+
 /* align ta thik thaktese top a padding na dile */
 
 .comming-soon .comming-soon-content .third-box h2 {
@@ -296,7 +311,7 @@
 
 /* Sales Section Style */
 
-
+/* Sales Text Section */
 
 .sales-text {
     text-align: center;
@@ -336,6 +351,21 @@
     width: 65%;
     max-width: 1068px;
     margin: 28px auto 0;
+}
+
+/* Sales Image Section */
+
+.sales .sales-img {
+    background-image: url('../images/Group\ 79.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sales .sales-img .sales-img-section-top {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 225px;
 }
 
 
@@ -501,10 +531,6 @@ footer {
     width: 375px;
 }
 
-.footer .address .address-right {
-    padding-right: 130px;
-    /* Padding na dile alignment thik thake, but assignment a align kora nei */
-}
 
 .footer .address .address-right .contact {
     display: flex;
@@ -548,7 +574,3 @@ footer {
     line-height: normal;
     padding: 50px 0 120px 0;
 }
-
-
-
-
