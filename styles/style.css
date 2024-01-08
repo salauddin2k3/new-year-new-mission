@@ -359,16 +359,20 @@
     background-image: url('../images/Group\ 79.png');
     background-repeat: no-repeat;
     background-position: bottom;
-}
-
-.sales .sales-img .sales-img-section-top {
-    margin-top: 64px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 225px;
+    margin-top: 64px;
 }
 
-.sales .sales-img .sales-img-section-top .sales-img-right {
+.sales .sales-img .sales-img-left {
+    padding-left: 100px;
+    position: relative;
+    left: 640px;
+    top: 65px;
+}
+
+.sales .sales-img .sales-img-right {
+    padding-bottom: 226px;
 }
 
 /* Portfolio Section Style*/
